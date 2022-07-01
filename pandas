@@ -1,0 +1,3 @@
+import pandas as pd
+data = pd.read_csv("vt_tax_data-2016.csv")
+print(data.head())
